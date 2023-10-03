@@ -1,11 +1,5 @@
 {
     "extends": "@pentible/tsconfig",
     "include": [],
-    "references": [
-        { "path": "./apps/web" },
-        { "path": "./apps/mobile" },
-        { "path": "./apps/desktop" },
-        { "path": "./packages/db" },
-        { "path": "./packages/api" }
-    ]
+    "references": [{ "path": "./apps/web" }]
 }

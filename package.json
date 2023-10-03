@@ -5,8 +5,7 @@
     "license": "UNLICENSED",
     "type": "module",
     "workspaces": [
-        "./apps/*",
-        "./packages/*"
+        "./apps/*"
     ],
     "scripts": {
         "android": "npm run -w mobile android",
