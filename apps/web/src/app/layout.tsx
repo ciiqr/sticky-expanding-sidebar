@@ -21,7 +21,7 @@ export default function Layout({ children }: Props) {
     return (
         <html lang="en">
             <body
-                className={`${quicksand.variable} bg-indigo-900 font-sans text-indigo-50`}
+                className={`${quicksand.variable} h-screen bg-indigo-900 font-sans text-indigo-50`}
             >
                 {children}
             </body>
